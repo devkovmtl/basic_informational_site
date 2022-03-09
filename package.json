@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/devkovmtl/basic_informational_site/issues"
   },
-  "homepage": "https://github.com/devkovmtl/basic_informational_site#readme"
+  "homepage": "https://github.com/devkovmtl/basic_informational_site#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
